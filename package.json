@@ -1,6 +1,6 @@
 {
-  "name": "fxa-password-strength-checker",
-  "version": "0.0.3",
+  "name": "fxa-common-password-list",
+  "version": "0.0.1",
   "description": "Common password checker for Firefox Accounts",
   "main": "src/passwordcheck.js",
   "directories": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mozilla/fxa-password-strength-checker"
+    "url": "https://github.com/mozilla/fxa-common-password-list"
   },
   "keywords": [
     "password"
@@ -21,9 +21,9 @@
   "author": "Mozilla",
   "license": "MPL-2.0",
   "bugs": {
-    "url": "https://github.com/mozilla/fxa-password-strength-checker/issues"
+    "url": "https://github.com/mozilla/fxa-common-password-list/issues"
   },
-  "homepage": "https://github.com/mozilla/fxa-password-strength-checker",
+  "homepage": "https://github.com/mozilla/fxa-common-password-list",
   "devDependencies": {
     "bloomfilter": "0.0.18",
     "chai": "4.1.2",

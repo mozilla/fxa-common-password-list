@@ -2,12 +2,18 @@
 
 Check whether a password is common.
 
+## Installation:
+> npm install fxa-common-password-list
+
 ## Usage:
 ```js
-const commonPassworList = requir('fxa-common-password-list');
+const commonPassworList = require('fxa-common-password-list');
 
 // returns true
-commonPassworList.test('password')
+commonPassworList.test('password');
+
+// returns false
+commonPasswordList.test('@!#^GDSAQ@#^Q#@^$YAESFDAS');
 ```
 
 ## Generating bloomfilter data
