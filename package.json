@@ -1,6 +1,6 @@
 {
   "name": "fxa-common-password-list",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Common password checker for Firefox Accounts",
   "main": "src/passwordcheck.js",
   "directories": {
