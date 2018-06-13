@@ -16,6 +16,19 @@ commonPassworList.test('password');
 commonPasswordList.test('@!#^GDSAQ@#^Q#@^$YAESFDAS');
 ```
 
+## Tagging a release
+
+One command to do it all:
+
+> npm version &lt;version&gt;
+
+* Creates a release branch
+* Updates version number in package.json, package-lock.json
+* Updates CHANGELOG.md
+* Commits changes
+* Creates a tag
+* Pushes release branch and tag to origin
+
 ## Generating bloomfilter data
 Bloom filter data can be generated from a list
 of passwords. The input list is expected to be
