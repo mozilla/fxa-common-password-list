@@ -7,9 +7,11 @@
     "test": "tests"
   },
   "scripts": {
+    "lint": "eslint .",
+    "postversion": "sh scripts/postversion.sh",
     "setup": "npm install",
     "test": "mocha tests",
-    "lint": "eslint ."
+    "version": "sh scripts/version.sh"
   },
   "repository": {
     "type": "git",
@@ -29,6 +31,7 @@
   },
   "devDependencies": {
     "chai": "4.1.2",
+    "conventional-changelog-cli": "2.0.1",
     "eslint": "4.19.1",
     "eslint-plugin-fxa": "1.0.0",
     "mocha": "5.2.0"
