@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/mozilla/fxa-common-password-list",
   "dependencies": {
-    "bloomfilter": "0.0.18"
+    "incremental-encoder": "0.0.1"
   },
   "devDependencies": {
     "chai": "^4.2.0",
