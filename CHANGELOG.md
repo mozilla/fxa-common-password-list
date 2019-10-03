@@ -1,4 +1,12 @@
-<a name="0.0.2"></a>
+## [0.0.4](https://github.com/mozilla/fxa-common-password-list/compare/v0.0.2...v0.0.4) (2019-10-03)
+
+
+### Bug Fixes
+
+* **passwords:** No more false positives! ([53d5882](https://github.com/mozilla/fxa-common-password-list/commit/53d5882)), closes [mozilla/fxa#1530](https://github.com/mozilla/fxa/issues/1530)
+
+
+
 ## [0.0.2](https://github.com/mozilla/fxa-common-password-list/compare/v0.0.1...v0.0.2) (2018-06-13)
 
 
