@@ -10,7 +10,7 @@ Check whether a password is common.
 const commonPassworList = require('fxa-common-password-list');
 
 // returns true
-commonPassworList.test('password');
+commonPasswordList.test('password');
 
 // returns false
 commonPasswordList.test('@!#^GDSAQ@#^Q#@^$YAESFDAS');
