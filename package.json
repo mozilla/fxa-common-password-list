@@ -32,8 +32,8 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "conventional-changelog-cli": "^2.0.21",
-    "eslint": "^5.16.0",
+    "eslint": "^9.39.1",
     "eslint-plugin-fxa": "1.0.0",
-    "mocha": "^6.1.4"
+    "mocha": "^11.7.5"
   }
 }
